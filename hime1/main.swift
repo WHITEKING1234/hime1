@@ -88,4 +88,103 @@ let vop3 = readLine()!
 ad1d(vop3: String(vop3))
 print("Твой банк 3000 сом Идем далше!????")
 print ("А что было далше мы узнаем полсе короткой рекламы!!!")
-//da
+
+
+
+//дз номер 5 Контакты
+print ("Кантакты на букву А")
+var name :[String] = ["Имя"]
+var nomer : [String?] = ["+996"]
+var contact1 :[String] = ["Имя"]
+var nomer1 : [String] = ["+996"]
+var contacl2 : [String] = ["Имя"]
+var nomer2 : [String] = ["+996"]
+var contact3 : [String] = ["Имя"]
+var nimer3 : [String] = ["+996"]
+var nomar : [String] = [ "В вашем телефоне кантактов на букву А ровно 3!!!"]
+func contact(){
+    print ("Видите Имя Контакта!!")
+    let at1 = readLine()!
+    name.append(at1)
+    print ("Видите номер контакта!")
+    let at2 = readLine()
+    nomer.append(at2)
+    print ("Видите Имя Контакта!!")
+
+let at3 = readLine()!
+    contact1.append(at3)
+    print ("Видите номер контакта!")
+
+    let at4 = readLine()!
+    nomer1.append(at4)
+    print ("Видите Имя контакта!")
+    let at5 = readLine()!
+    contacl2.append(at5)
+    
+    print ("Видите Номер Контакта!!")
+    let at6 = readLine()!
+    nomer2.append(at6)
+    print ("Видите Имя Контакта!!")
+  
+    let at7 = readLine()!
+    contact3.append(at7)
+    print ("Видите номер контакта!")
+let at8 = readLine()!
+    nimer3.append(at8)
+
+}
+
+
+
+
+contact()
+print (name)
+print (nomer)
+print(contact1)
+print (nomer)
+print (contacl2)
+print(nomer2)
+print (contact3)
+print(nimer3)
+print (nomar)
+
+
+
+
+print ("Кантакты на букву Б")
+var con1 : [String] = ["Имя"]
+var nam1 : [String] = ["+996"]
+var con2 : [String] = ["Имя"]
+var nam2 : [String] = ["+996"]
+var con3 : [String] = ["Имя"]
+var nam3 : [String] = ["+996"]
+var nomar1 : [String] = [ "В вашем телефоне кантактов на букву Б ровно 3!!!"]
+
+func atq(){
+    print("Видете Имя Контакта")
+    let ap12 = readLine()!
+    con1.append(ap12)
+    print("Видете номер")
+    let app31 = readLine()!
+    nam1.append(app31)
+    print("Видете имя Контакта")
+    let app321 = readLine()!
+    con2.append(app321)
+    print("Видите Номер!")
+    let adq = readLine()!
+    nam2.append(adq)
+    print("Видите Кантакт")
+    let apq = readLine()!
+    con3.append(apq)
+    print("Видите Номер!")
+    let dq = readLine()!
+    nam3.append(dq)
+}
+atq()
+print(con1)
+print(nam1)
+print(con2)
+print(nam2)
+print(con3)
+print(nam3)
+print(nomar1)
